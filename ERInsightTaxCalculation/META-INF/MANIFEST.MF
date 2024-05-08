@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: ERInsightTaxCalculation
+Bundle-SymbolicName: ERInsightTaxCalculation;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Automatic-Module-Name: ERInsightTaxCalculation
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Require-Bundle: org.adempiere.base,
+ org.adempiere.plugin.utils
+Service-Component: taxfa.xml
