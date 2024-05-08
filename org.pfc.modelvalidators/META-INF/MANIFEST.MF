@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Modelvalidators
+Bundle-SymbolicName: org.pfc.modelvalidators
+Bundle-Version: 1.0.0.qualifier
+Automatic-Module-Name: org.pfc.modelvalidators
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Bundle-ActivationPolicy: lazy
+Require-Bundle: org.adempiere.plugin.utils;bundle-version="8.2.0",
+ org.adempiere.base;bundle-version="8.2.0"
+Service-Component: PFCMValidatorCD.xml
